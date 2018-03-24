@@ -1,6 +1,7 @@
 'use strict';
 
 const Alexa = require('alexa-sdk');
+const AWS = require('aws-sdk');
 const APP_ID = undefined;
 const SKILL_NAME = 'Space Facts';
 const GET_FACT_MESSAGE = "Here's your fact: ";
@@ -31,12 +32,30 @@ const handlers = {
     },
     'GetFrameIntent': function () {
         // slot取得
-        const character = this.event.request.intent.slots.Character.value;
-        const technique = this.event.request.intent.slots.Technique.value;
-        // message生成
-        const message = `${character}の${technique}を聞き取りました。`;
-        this.response.speak(message);
-        this.emit(':responseReady');
+        const character = this.event.request.intent.slots.Character.value; // キャラ名
+        const technique = this.event.request.intent.slots.Technique.value; // 技名
+
+        console.log('character：', character);
+        console.log('technique：', technique);
+
+        // 発生フレームを取得する
+        getStartUp(character, technique).then(startUp => {
+            if (startUp === '') {
+                const message = 'その技は存在しません。';
+                this.response.speak(message);
+                this.emit(':responseReady');
+            }
+
+            // message生成
+            const message = `${character}の${technique}は${startUp}フレームです。`;
+            this.response.speak(message);
+            this.emit(':responseReady');
+        }).catch(err => {
+            console.error(err);
+            const message = '申し訳ございません。エラーが発生しました。';
+            this.response.speak(message);
+            this.emit(':responseReady');
+        });
     },
 };
 
@@ -46,3 +65,43 @@ exports.handler = function (event, context, callback) {
     alexa.registerHandlers(handlers);
     alexa.execute();
 };
+
+/**
+ * DynamoDBからStartUpを取得する。
+ * 
+ * @param {String} character キャラ名
+ * @param {String} technique 技名
+ */
+const getStartUp = ((character, technique) => {
+    return new Promise((resolve, reject) => {
+        // DynamoDB接続準備
+        const docClient = new AWS.DynamoDB.DocumentClient();
+        const tableName = 'SFV_FrameData';
+        const params = {
+            TableName: tableName,
+            Key:{
+                "character_name": character,
+                "technique_name": technique
+            }
+        };
+
+        docClient.get(params, function(err, data) {
+            if (err) {
+                // エラー時
+                console.error("Unable to read item. Error JSON:", JSON.stringify(err, null, 2));
+                reject(err);
+            }
+
+            console.log("GetItem succeeded:", JSON.stringify(data, null, 2));
+
+            let startUp = '';
+
+            // 取得結果が空の場合を考慮
+            if (data.hasOwnProperty('Item')) {
+                startUp = data.Item.start_up;
+            }
+
+            resolve(startUp);
+        });
+    });
+});
