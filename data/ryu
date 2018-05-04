@@ -31,7 +31,7 @@
 {"character_name":{"s":"リュウ"},"technique_name":{"s":"弱昇竜拳"},"start_up":{"s":"3"}}
 {"character_name":{"s":"リュウ"},"technique_name":{"s":"中昇竜拳"},"start_up":{"s":"4"}}
 {"character_name":{"s":"リュウ"},"technique_name":{"s":"強昇竜拳"},"start_up":{"s":"5"}}
-{"character_name":{"s":"リュウ"},"technique_name":{"s":"EX波動拳"},"start_up":{"s":"3"}}
+{"character_name":{"s":"リュウ"},"technique_name":{"s":"EX昇竜拳"},"start_up":{"s":"3"}}
 {"character_name":{"s":"リュウ"},"technique_name":{"s":"弱竜巻旋風脚"},"start_up":{"s":"10"}}
 {"character_name":{"s":"リュウ"},"technique_name":{"s":"中竜巻旋風脚"},"start_up":{"s":"12"}}
 {"character_name":{"s":"リュウ"},"technique_name":{"s":"強竜巻旋風脚"},"start_up":{"s":"14"}}
@@ -44,3 +44,4 @@
 {"character_name":{"s":"リュウ"},"technique_name":{"s":"中上段足刀蹴り"},"start_up":{"s":"18"}}
 {"character_name":{"s":"リュウ"},"technique_name":{"s":"強上段足刀蹴り"},"start_up":{"s":"20"}}
 {"character_name":{"s":"リュウ"},"technique_name":{"s":"EX上段足刀蹴り"},"start_up":{"s":"18"}}
+{"character_name":{"s":"リュウ"},"technique_name":{"s":"真空波動拳"},"start_up":{"s":"4"}}
