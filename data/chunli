@@ -29,10 +29,12 @@
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"後ろ投げ"},"start_up":{"s":"5"}}
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"空投げ"},"start_up":{"s":"5"}}
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"錬気功"},"start_up":{"s":"1"}}
+{"character_name":{"s":"チュンリー"},"technique_name":{"s":"気功掌"},"start_up":{"s":"7"}}
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"鸞脚"},"start_up":{"s":"11"}}
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"双発勁"},"start_up":{"s":"12"}}
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"弱気功拳"},"start_up":{"s":"13"}}
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"中気功拳"},"start_up":{"s":"11"}}
+{"character_name":{"s":"チュンリー"},"technique_name":{"s":"強気功拳"},"start_up":{"s":"9"}}
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"EX気功拳"},"start_up":{"s":"11"}}
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"弱百裂脚"},"start_up":{"s":"5"}}
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"中百裂脚"},"start_up":{"s":"11"}}
