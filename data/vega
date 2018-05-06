@@ -48,6 +48,4 @@
 {"character_name":{"s":"ベガ"},"technique_name":{"s":"サイコチャージ"},"start_up":{"s":"6"}}
 {"character_name":{"s":"ベガ"},"technique_name":{"s":"サイコジャッジメント"},"start_up":{"s":"15"}}
 {"character_name":{"s":"ベガ"},"technique_name":{"s":"サイコクラッシャーアタック"},"start_up":{"s":"14"}}
-{"character_name":{"s":"ベガ"},"technique_name":{"s":"アルティメットサイコクラッシャー"},"start_up":{"s":"14"}}
-
-
+{"character_name":{"s":"ベガ"},"technique_name":{"s":"アルティメットサイコクラッシャー"},"start_up":{"s":"14"}
