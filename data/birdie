@@ -25,9 +25,7 @@
 {"character_name":{"s":"バーディー"},"technique_name":{"s":"バナナタイム"},"start_up":{"s":"50"}}
 {"character_name":{"s":"バーディー"},"technique_name":{"s":"ドリンクタイム"},"start_up":{"s":"50"}}
 {"character_name":{"s":"バーディー"},"technique_name":{"s":"エンジョイタイム"},"start_up":{"s":"12"}}
-{"character_name":{"s":"バーディー"},"technique_name":{"s":"ドリンクタイム"},"start_up":{"s":"50"}}
 {"character_name":{"s":"バーディー"},"technique_name":{"s":"ペッパーポット"},"start_up":{"s":"17"}}
-{"character_name":{"s":"バーディー"},"technique_name":{"s":"ドリンクタイム"},"start_up":{"s":"50"}}
 {"character_name":{"s":"バーディー"},"technique_name":{"s":"弱ブルヘッド"},"start_up":{"s":"14"}}
 {"character_name":{"s":"バーディー"},"technique_name":{"s":"中ブルヘッド"},"start_up":{"s":"18"}}
 {"character_name":{"s":"バーディー"},"technique_name":{"s":"強ブルヘッド"},"start_up":{"s":"27"}}
@@ -47,3 +45,6 @@
 {"character_name":{"s":"バーディー"},"technique_name":{"s":"強キリングヘッド"},"start_up":{"s":"5"}}
 {"character_name":{"s":"バーディー"},"technique_name":{"s":"EXキリングヘッド"},"start_up":{"s":"5"}}
 {"character_name":{"s":"バーディー"},"technique_name":{"s":"バッドスキップチェーン"},"start_up":{"s":"6"}}
+{"character_name":{"s":"バーディー"},"technique_name":{"s":"バーディタイム"},"start_up":{"s":"5"}}
+{"character_name":{"s":"バーディー"},"technique_name":{"s":"ブルスウィング"},"start_up":{"s":"21"}}
+{"character_name":{"s":"バーディー"},"technique_name":{"s":"ブルキャプチャー"},"start_up":{"s":"19"}}
