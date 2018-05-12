@@ -26,7 +26,6 @@
 {"character_name":{"s":"バルログ"},"technique_name":{"s":"爪なしジャンプ中パンチ"},"start_up":{"s":"4"}}
 {"character_name":{"s":"バルログ"},"technique_name":{"s":"爪なしジャンプ強パンチ"},"start_up":{"s":"7"}}
 {"character_name":{"s":"バルログ"},"technique_name":{"s":"ピースオブマーキュリー"},"start_up":{"s":"22"}}
-{"character_name":{"s":"バルログ"},"technique_name":{"s":"三角跳び"},"start_up":{"s":"9"}}
 {"character_name":{"s":"バルログ"},"technique_name":{"s":"バスタークロー"},"start_up":{"s":"13"}}
 {"character_name":{"s":"バルログ"},"technique_name":{"s":"マタドールフラッシュ攻撃"},"start_up":{"s":"22"}}
 {"character_name":{"s":"バルログ"},"technique_name":{"s":"マタドールブリッツ攻撃"},"start_up":{"s":"22"}}
