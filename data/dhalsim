@@ -21,7 +21,6 @@
 {"character_name":{"s":"ダルシム"},"technique_name":{"s":"合掌キック"},"start_up":{"s":"6"}}
 {"character_name":{"s":"ダルシム"},"technique_name":{"s":"スラストキック"},"start_up":{"s":"7"}}
 {"character_name":{"s":"ダルシム"},"technique_name":{"s":"ドリルキック"},"start_up":{"s":"12"}}
-{"character_name":{"s":"ダルシム"},"technique_name":{"s":"ドリルキック"},"start_up":{"s":"12"}}
 {"character_name":{"s":"ダルシム"},"technique_name":{"s":"前投げ"},"start_up":{"s":"5"}}
 {"character_name":{"s":"ダルシム"},"technique_name":{"s":"後ろ投げ"},"start_up":{"s":"5"}}
 {"character_name":{"s":"ダルシム"},"technique_name":{"s":"ヨガバーナー"},"start_up":{"s":"13"}}

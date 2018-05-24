@@ -15,7 +15,7 @@
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"ジャンプ強パンチ"},"start_up":{"s":"6"}}
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"ジャンプ弱キック"},"start_up":{"s":"4"}}
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"ジャンプ中キック"},"start_up":{"s":"6"}}
-{"character_name":{"s":"チュンリー"},"technique_name":{"s":"前後ジャンプ強キック"},"start_up":{"s":"9"}}
+{"character_name":{"s":"チュンリー"},"technique_name":{"s":"ジャンプ強キック"},"start_up":{"s":"9"}}
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"垂直ジャンプ強キック"},"start_up":{"s":"7"}}
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"追突拳"},"start_up":{"s":"7"}}
 {"character_name":{"s":"チュンリー"},"technique_name":{"s":"発勁"},"start_up":{"s":"7"}}

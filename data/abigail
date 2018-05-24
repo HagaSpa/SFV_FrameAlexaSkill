@@ -22,11 +22,8 @@
 {"character_name":{"s":"アビゲイル"},"technique_name":{"s":"ジャンプ中キック"},"start_up":{"s":"10"}}
 {"character_name":{"s":"アビゲイル"},"technique_name":{"s":"ジャンプ強キック"},"start_up":{"s":"14"}}
 {"character_name":{"s":"アビゲイル"},"technique_name":{"s":"アビハンマー"},"start_up":{"s":"21"}}
-{"character_name":{"s":"アビゲイル"},"technique_name":{"s":"アビリフト"},"start_up":{"s":"10"}}
-{"character_name":{"s":"アビゲイル"},"technique_name":{"s":"アビブラスター"},"start_up":{"s":"7"}}
 {"character_name":{"s":"アビゲイル"},"technique_name":{"s":"ブンブン"},"start_up":{"s":"3"}}
 {"character_name":{"s":"アビゲイル"},"technique_name":{"s":"バンバン"},"start_up":{"s":"4"}}
-{"character_name":{"s":"アビゲイル"},"technique_name":{"s":"アビスクリュー"},"start_up":{"s":"17"}}
 {"character_name":{"s":"アビゲイル"},"technique_name":{"s":"アビリフト"},"start_up":{"s":"10"}}
 {"character_name":{"s":"アビゲイル"},"technique_name":{"s":"アビリフトホールド"},"start_up":{"s":"22"}}
 {"character_name":{"s":"アビゲイル"},"technique_name":{"s":"アビリフトホールド最大"},"start_up":{"s":"35"}}
@@ -58,7 +55,6 @@
 {"character_name":{"s":"アビゲイル"},"technique_name":{"s":"アバランシュプレス"},"start_up":{"s":"23"}}
 {"character_name":{"s":"アビゲイル"},"technique_name":{"s":"ベイエリアサンライズ"},"start_up":{"s":"8"}}
 {"character_name":{"s":"アビゲイル"},"technique_name":{"s":"ドロップバック"},"start_up":{"s":"37"}}
-{"character_name":{"s":"アビゲイル"},"technique_name":{"s":"EXナイトロチャージ"},"start_up":{"s":"39"}}
 {"character_name":{"s":"アビゲイル"},"technique_name":{"s":"EXダイナマイトパンチ"},"start_up":{"s":"15"}}
 {"character_name":{"s":"アビゲイル"},"technique_name":{"s":"EXアバランシュプレス"},"start_up":{"s":"21"}}
 {"character_name":{"s":"アビゲイル"},"technique_name":{"s":"EXベイエリアサンライズ"},"start_up":{"s":"8"}}
