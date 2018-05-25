@@ -35,7 +35,6 @@
 {"character_name":{"s":"ガイル"},"technique_name":{"s":"ソニックブレイド"},"start_up":{"s":"18"}}
 {"character_name":{"s":"ガイル"},"technique_name":{"s":"ソリッドパンチャー"},"start_up":{"s":"1"}}
 {"character_name":{"s":"ガイル"},"technique_name":{"s":"リバースバックナックル"},"start_up":{"s":"17"}}
-{"character_name":{"s":"ガイル"},"technique_name":{"s":"リバースバックナックル"},"start_up":{"s":"17"}}
 {"character_name":{"s":"ガイル"},"technique_name":{"s":"弱ソニックブーム"},"start_up":{"s":"10"}}
 {"character_name":{"s":"ガイル"},"technique_name":{"s":"中ソニックブーム"},"start_up":{"s":"10"}}
 {"character_name":{"s":"ガイル"},"technique_name":{"s":"強ソニックブーム"},"start_up":{"s":"10"}}

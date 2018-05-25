@@ -23,7 +23,7 @@
 {"character_name":{"s":"かりん"},"technique_name":{"s":"明王拳"},"start_up":{"s":"14"}}
 {"character_name":{"s":"かりん"},"technique_name":{"s":"明王拳ホールド"},"start_up":{"s":"21"}}
 {"character_name":{"s":"かりん"},"technique_name":{"s":"神月流紅蓮の型"},"start_up":{"s":"1"}}
-{"character_name":{"s":"かりん"},"technique_name":{"s":"神月流天破の型の型"},"start_up":{"s":"1"}}
+{"character_name":{"s":"かりん"},"technique_name":{"s":"神月流天破の型"},"start_up":{"s":"1"}}
 {"character_name":{"s":"かりん"},"technique_name":{"s":"烈尖頂"},"start_up":{"s":"16"}}
 {"character_name":{"s":"かりん"},"technique_name":{"s":"天孤"},"start_up":{"s":"6"}}
 {"character_name":{"s":"かりん"},"technique_name":{"s":"EX天孤"},"start_up":{"s":"6"}}
