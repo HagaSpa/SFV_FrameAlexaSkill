@@ -2,13 +2,11 @@
 
 const Alexa = require('alexa-sdk');
 const AWS = require('aws-sdk');
-const APP_ID = undefined;
-const SKILL_NAME = 'Space Facts';
-const GET_FACT_MESSAGE = "Here's your fact: ";
-const HELP_MESSAGE = 'You can say tell me a space fact, or, you can say exit... What can I help you with?';
-const HELP_REPROMPT = 'What can I help you with?';
-const STOP_MESSAGE = 'Goodbye!';
-const LAUNCH_MESSAGE = 'もう一度お願いします。';
+const APP_ID = process.env.APP_ID;
+const HELP_MESSAGE = 'カプコン社によって販売中の格闘ゲーム、ストリートファイターファイブに存在するキャラクターのフレームを教えます。';
+const HELP_REPROMPT = 'キャラクターと技の組み合わせで聞いてください';
+const STOP_MESSAGE = '中断します';
+const LAUNCH_MESSAGE = '申し訳ありません。もう一度お願いします';
 
 const handlers = {
     'LaunchRequest': function () {
@@ -31,12 +29,10 @@ const handlers = {
         this.emit(':responseReady');
     },
     'GetFrameIntent': function () {
+        console.log(this.event.request);
         // slot取得
         const character = this.event.request.intent.slots.Character.value; // キャラ名
         const technique = this.event.request.intent.slots.Technique.value; // 技名
-
-        console.log('character：', character);
-        console.log('technique：', technique);
 
         // 発生フレームを取得する
         getStartUp(character, technique).then(startUp => {
