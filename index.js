@@ -3,14 +3,14 @@
 const Alexa = require('alexa-sdk');
 const AWS = require('aws-sdk');
 const APP_ID = process.env.APP_ID;
-const HELP_MESSAGE = 'カプコン社によって販売中の格闘ゲーム、ストリートファイターファイブに存在するキャラクターのフレームを教えます。';
+const HELP_MESSAGE = 'カプコン社によって販売中の格闘ゲーム、ストリートファイターファイブに存在する技の発生フレームを教えます。';
 const HELP_REPROMPT = 'キャラクターと技の組み合わせで聞いてください';
 const STOP_MESSAGE = '中断します';
 const LAUNCH_MESSAGE = '申し訳ありません。もう一度お願いします';
 
 const handlers = {
     'LaunchRequest': function () {
-        this.response.speak(LAUNCH_MESSAGE);
+        this.response.speak(HELP_MESSAGE);
         this.emit(':responseReady');
     },
     'AMAZON.HelpIntent': function () {
