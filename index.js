@@ -3,21 +3,21 @@
 const Alexa = require('alexa-sdk');
 const AWS = require('aws-sdk');
 const APP_ID = process.env.APP_ID;
-const HELP_MESSAGE = 'カプコン社によって販売中の格闘ゲーム、ストリートファイターファイブに存在する技の発生フレームを教えます。';
-const HELP_REPROMPT = 'キャラクターと技の組み合わせで聞いてください';
+const HELP_MESSAGE = 'カプコン社によって販売中の格闘ゲーム、ストリートファイターファイブに存在する、技の発生フレームを教えます。';
+const HELP_REPROMPT = 'どのキャラクターの、どの技について知りたいですか？';
 const STOP_MESSAGE = '中断します';
-const LAUNCH_MESSAGE = '申し訳ありません。もう一度お願いします';
+const LAUNCH_MESSAGE = 'このスキルはストリートファイターファイブに存在する、技の発生フレームを教えます';
 
 const handlers = {
     'LaunchRequest': function () {
-        this.response.speak(HELP_MESSAGE);
+        this.response.speak(LAUNCH_MESSAGE);
         this.emit(':responseReady');
     },
     'AMAZON.HelpIntent': function () {
         const speechOutput = HELP_MESSAGE;
         const reprompt = HELP_REPROMPT;
 
-        this.response.speak(speechOutput).listen(reprompt);
+        this.response.speak(speechOutput).listen(speechOutput + ' ' + reprompt);
         this.emit(':responseReady');
     },
     'AMAZON.CancelIntent': function () {
@@ -39,7 +39,7 @@ const handlers = {
             if (startUp === '') {
                 const message = 'その技は存在しません。';
                 this.response.speak(message);
-                this.emit(':responseReady');
+                this.emit(':responseReady');　
             }
 
             // message生成
@@ -48,7 +48,7 @@ const handlers = {
             this.emit(':responseReady');
         }).catch(err => {
             console.error(err);
-            const message = '申し訳ございません。エラーが発生しました。';
+            const message = '正しいキャラクターの名称と、技の名称を話してください。';
             this.response.speak(message);
             this.emit(':responseReady');
         });
@@ -92,8 +92,8 @@ const getStartUp = ((character, technique) => {
 
             let startUp = '';
 
-            // 取得結果が空の場合を考慮
-            if (data.hasOwnProperty('Item')) {
+            // 取得結果が空の場合を考慮。slotが不足している場合はnullになる
+            if (data !== null && data.hasOwnProperty('Item')) {
                 startUp = data.Item.start_up;
             }
 
